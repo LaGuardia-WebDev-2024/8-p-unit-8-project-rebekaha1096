@@ -10,20 +10,43 @@ setup = function() {
 //🟢draw Function - will run on repeat
 draw = function(){
 
-};
 
 //🟢mouseClicked Function - will run when mouse is clicked
 mouseClicked = function(){
-
-}
-
-//🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
-  fill(fishColor);
-  text("𓆝", fishX, fishY);
+drawseal(100,250, color(0,150,255));
 };
 
 
+//🟡drawShark Function - will run when called
+var drawShark = function(SharkX, SharkY, SharkColor){
+  textSize(60);
+  fill(sharkColor);
+  text("🦈", SharkX, SharkY);
+  };
+  //🟡drawDolphin Function - will run when called
+var drawShark = function(DolphinX, DolphinY, DolphinColor){
+  textSize(100);
+  fill(dolphinColor);
+  text("🐬", DolphinX, DolphinY);
+  };
+   //🟡drawSeal Function - will run when called
+var drawShark = function(SealX, SealY, SealColor){
+  textSize(100);
+  fill(SealColor);
+  text("🦭", SealX, SealY);
+};
+
+//🟡drawWave Function - will run when called
+var drawShark = function(WaveX, WaveY, WaveColor){
+  textSize(130);
+  fill(WaveColor);
+  text("🌊", WaveX, WaveY);
+};
+//🟡drawWave Function - will run when called
+var drawShark = function(WaveX, WaveY, WaveColor){
+  textSize(130);
+  fill(WaveColor);
+  text("🌊", WaveX, WaveY);
+};
 
 
