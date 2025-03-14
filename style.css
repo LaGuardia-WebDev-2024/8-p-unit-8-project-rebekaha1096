@@ -15,17 +15,14 @@ h1{
   font-size: 45px;
   margin-bottom:20px;
 }
-p{
-  font-size: 10px;
-  margin-top:20px;
-}
+
 
 
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
-  background-size: 600px 400px;
-  border-radius: 300px;
+  background-image: url(https://img.pikbest.com/wp/202343/depicting-captivating-and-textured-aesthetic-depiction-of-sea-waves-in-abstract-blue_9975405.jpg!bw700);
+  background-size: 1500px 800px;
+  border-radius: 300px; 
   border: 5px solid white;
 }
 

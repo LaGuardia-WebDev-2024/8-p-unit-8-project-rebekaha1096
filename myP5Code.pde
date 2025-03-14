@@ -6,7 +6,6 @@ setup = function() {
    drawDolphin(450,215,color(200,0,200));
  drawSquid(320, 150,color(200,0,200));
  drawOyster(360,370,color(200,0,200));
-    drawOyster(100,370,color(200,0,200));
     drawFish(200, 200, color(200,0,200)); 
     drawWhale(100,270, color(200,0,200));
     
@@ -51,12 +50,7 @@ var drawOyster = function(OysterX, OysterY, OysterColor){
   fill(OysterColor);
   text("🦪", OysterX, OysterY);
 };
-//🟡drawOyster Function - will run when called
-var drawOyster = function(OysterX, OysterY, OysterColor){
-  textSize(50);
-  fill(OysterColor);
-  text("🦪", OysterX, OysterY);
-  };
+  
   //🟡drawFish Function - will run when called
 var drawFish = function(FishX, FishY, FishColor){
   textSize(130);
